@@ -20,10 +20,14 @@ class Person
 
   def ballin_candy_lover?
     if @candy_lover == true
-      "Aw sweet, this cat loves them some candy!"
+      p "Aw sweet, this cat loves them some candy!" 
     else
       10.times do
-        "not a ballin candy lover"
+        p "not a ballin candy lover"
     end
   end
+  
+  def that_was_unexpected(person)
+    person.ballin_candy_lover? 
+  end 
 end
