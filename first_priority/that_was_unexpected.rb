@@ -26,8 +26,4 @@ class Person
         p "not a ballin candy lover"
     end
   end
-  
-  def that_was_unexpected(person)
-    person.ballin_candy_lover? 
-  end 
 end
